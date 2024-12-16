@@ -75,7 +75,10 @@ text.innerHTML.style="bad choice to stay"
 
     
 });
- badplanet.addEventListener('click', function()
+
+
+
+ badplanet.addEventListener('click', function(){
 PlanetA.style.display="none";
 PlanetB.style.display="none";
 left.style.display="none";
@@ -85,12 +88,10 @@ text.innerHTML.style="double click to go next";
 
 
 
+});
 
 
 
-
-
-})
 badalien.addEventListener('click', function(){
     PlanetA.style.display="none";
     PlanetB.style.display="none";
